@@ -1,2 +1,3 @@
 api_version: 1
 php_version: 7.2
+enforce_https: hsts
