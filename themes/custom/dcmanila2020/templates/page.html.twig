@@ -1,0 +1,43 @@
+<!-- Start: Main Menu -->
+<nav class="navbar navbar-primary mb-0 b-r-0 bg-primary">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+        <span class="icon-bar bg-white"></span>
+        <span class="icon-bar bg-white"></span>
+        <span class="icon-bar bg-white"></span>
+      </button>
+      {% if page.sitebrand %}
+        {{ page.sitebrand }}
+      {% endif %}
+    </div>
+    {% if page.mainmenu %}
+      <div class="collapse navbar-collapse" id="mainMenu">
+        {{ page.mainmenu }}
+      </div>
+    {% endif %}
+  </div>
+</nav>
+<!-- End: Main Menu -->
+<div class="container-fluid">
+  <!-- Start: Before Content -->
+  {% if page.before_content %}
+    {{ page.before_content }}
+  {% endif %}
+  <!-- End: Before Content -->
+  <!-- Start: Content -->
+  {% if page.content %}
+    {{ page.content }}
+  {% endif %}
+  <!-- End: Content -->
+  <!-- Start: After Content -->
+  {% if page.after_content %}
+    {{ page.after_content }}
+  {% endif %}
+  <!-- End: After Content -->
+  <!-- Start: Footer -->
+  {% if page.footer %}
+    {{ page.footer }}
+  {% endif %}
+  <!-- End: Footer -->
+</div>

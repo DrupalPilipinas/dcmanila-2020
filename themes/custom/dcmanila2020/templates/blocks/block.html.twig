@@ -1,0 +1,12 @@
+<div {{ attributes }}>
+  {% block content %}
+    {{ title_prefix }}
+    {% if label %}
+      <h2 class="text-white m-0 mb-10">{{ label }}</h2>
+    {% endif %}
+    {{ title_suffix }}
+    {% if content %}
+      {{ content }}
+    {% endif %}
+  {% endblock %}
+</div>
