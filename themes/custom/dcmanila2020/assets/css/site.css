@@ -13,8 +13,8 @@ body {
 
 button.bg-primary:hover,
 button.bg-primary:focus,
-input[type="submit"].bg-primary:hover,
-input[type="submit"].bg-primary:focus, {
+input[type=submit].bg-primary:hover,
+input[type=submit].bg-primary:focus {
     color: #fff;
     background-color: #0678be;
 }
