@@ -25,6 +25,11 @@
     {{ page.before_content }}
   {% endif %}
   <!-- End: Before Content -->
+  <!-- Start: Page Title -->
+  {% if page.page_title %}
+    {{ page.page_title }}
+  {% endif %}
+  <!-- End: Page Title -->
   <!-- Start: Content -->
   {% if page.content %}
     {{ page.content }}

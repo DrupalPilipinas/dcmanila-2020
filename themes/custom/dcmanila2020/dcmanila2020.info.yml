@@ -10,6 +10,7 @@ regions:
   sitebrand: 'Site Branding'
   mainmenu: 'Main Menu'
   before_content: 'Before Content'
+  page_title: 'Page Title'
   content: 'Content'
   after_content: 'After Content'
   footer: 'Footer'
