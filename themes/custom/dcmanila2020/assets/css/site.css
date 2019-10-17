@@ -96,6 +96,12 @@ input[type=submit].bg-primary:focus {
     background-color: #0678be;
 }
 
+.after-content .views-element-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #fff;
+}
+
 @media (max-width: 1000px) {
     .navbar-header {
         float: none;
@@ -118,8 +124,8 @@ input[type=submit].bg-primary:focus {
         display: none!important;
     }
     .navbar-nav {
-        float: none!important;
         margin-top: 7.5px;
+        float: none!important;
     }
     .navbar-nav>li {
         float: none;
@@ -131,4 +137,4 @@ input[type=submit].bg-primary:focus {
     .collapse.in{
         display:block !important;
     }
-  }
+}
