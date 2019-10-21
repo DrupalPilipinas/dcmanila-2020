@@ -102,6 +102,20 @@ input[type=submit].bg-primary:focus {
     border-bottom: 1px dotted #fff;
 }
 
+.beforemenu1 > div,
+.beforemenu2 > div,
+.beforemenu3 > div,
+.beforemenu4 > div {
+    display: inline-block;
+}
+
+.beforemenu1 p,
+.beforemenu2 p,
+.beforemenu3 p,
+.beforemenu4 p {
+    margin-bottom: 0px;
+}
+
 @media (max-width: 1000px) {
     .navbar-header {
         float: none;

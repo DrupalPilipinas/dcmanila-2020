@@ -1,5 +1,31 @@
+<!-- Start: Before Menu -->
+<div class="container-fluid">
+  <div class="row before-menu mb-0">
+    <div class="col-sm-3">
+      {% if page.beforemenu1 %}
+        {{ page.beforemenu1 }}
+      {% endif %}
+    </div>
+    <div class="col-sm-2">
+      {% if page.beforemenu2 %}
+        {{ page.beforemenu2 }}
+      {% endif %}
+    </div>
+    <div class="col-sm-2">
+      {% if page.beforemenu3 %}
+        {{ page.beforemenu3 }}
+      {% endif %}
+    </div>
+    <div class="col-sm-5">
+      {% if page.beforemenu4 %}
+        {{ page.beforemenu4 }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+<!-- End: Before Menu -->
 <!-- Start: Main Menu -->
-<nav class="navbar navbar-primary mb-0 b-r-0 bg-primary">
+<div class="navbar navbar-primary mb-0 b-r-0 bg-primary">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
@@ -17,7 +43,7 @@
       </div>
     {% endif %}
   </div>
-</nav>
+</div>
 <!-- End: Main Menu -->
 <div class="container-fluid">
   <!-- Start: Before Content -->

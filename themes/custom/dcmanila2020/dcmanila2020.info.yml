@@ -7,6 +7,10 @@ type: theme
 libraries:
   - dcmanila2020/style
 regions:
+  beforemenu1: 'Before Menu 1'
+  beforemenu2: 'Before Menu 2'
+  beforemenu3: 'Before Menu 3'
+  beforemenu4: 'Before Menu 4'
   sitebrand: 'Site Branding'
   mainmenu: 'Main Menu'
   before_content: 'Before Content'
