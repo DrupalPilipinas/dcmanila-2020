@@ -117,6 +117,11 @@ input[type=submit].bg-primary:focus {
     margin-bottom: 0px;
 }
 
+.content .views-element-container h2.text-white {
+    color: #064771;
+    text-align: center;
+}
+
 @media (max-width: 1000px) {
     .navbar-header {
         float: none;
