@@ -45,6 +45,11 @@
   </div>
 </div>
 <!-- End: Main Menu -->
+<!-- Start: banner -->
+{% if page.banner %}
+  {{ page.banner }}
+{% endif %}
+<!-- End: banner -->
 <div class="container-fluid">
   <!-- Start: Before Content -->
   {% if page.before_content %}

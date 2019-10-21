@@ -13,6 +13,7 @@ regions:
   beforemenu4: 'Before Menu 4'
   sitebrand: 'Site Branding'
   mainmenu: 'Main Menu'
+  banner: 'Banner'
   before_content: 'Before Content'
   page_title: 'Page Title'
   content: 'Content'

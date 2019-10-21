@@ -112,7 +112,8 @@ input[type=submit].bg-primary:focus {
 .beforemenu1 p,
 .beforemenu2 p,
 .beforemenu3 p,
-.beforemenu4 p {
+.beforemenu4 p,
+.banner p {
     margin-bottom: 0px;
 }
 
