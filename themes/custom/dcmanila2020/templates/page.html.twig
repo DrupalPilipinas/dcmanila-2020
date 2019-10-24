@@ -45,49 +45,50 @@
   </div>
 </div>
 <!-- End: Main Menu -->
-<!-- Start: banner -->
 {% if page.banner %}
+<!-- Start: banner -->
   {{ page.banner }}
-{% endif %}
 <!-- End: banner -->
+{% endif %}
 <div class="container-fluid">
-  <!-- Start: Before Content -->
   {% if page.before_content %}
+  <!-- Start: Before Content -->
     {{ page.before_content }}
-  {% endif %}
   <!-- End: Before Content -->
-  <!-- Start: Page Title -->
-  {% if page.page_title %}
-    {{ page.page_title }}
   {% endif %}
+  {% if page.page_title %}
+  <!-- Start: Page Title -->
+    {{ page.page_title }}
   <!-- End: Page Title -->
-  <!-- Start: Content -->
-  {% if path('<current>') != '/be-a-sponsor' or path('<current>') != '/be-a-speaker' %}
+  {% endif %}
+  {% if path('<current>') == '/be-a-sponsor' or path('<current>') == '/be-a-speaker' %}
+    {% if page.content_left and page.content_right %}
+    <!-- Start: Content Left and Right -->
+      <div class="row">
+        <div class="col-sm-6">
+          {{ page.content_left }}
+        </div>
+        <div class="col-sm-6">
+          {{ page.content_right }}
+        </div>
+      </div>
+    <!-- End: Content Left and Right -->
+    {% endif %}
+  {% else %}
     {% if page.content %}
+      <!-- Start: Content -->
       {{ page.content }}
+      <!-- End: Content -->
     {% endif %}
   {% endif %}
-  <!-- End: Content -->
-  <!-- Start: Content Left and Right -->
-  {% if page.content_left and page.content_right %}
-    <div class="row">
-      <div class="col-sm-6">
-        {{ page.content_left }}
-      </div>
-      <div class="col-sm-6">
-        {{ page.content_right }}
-      </div>
-    </div>
-  {% endif %}
-  <!-- End: Content Left and Right -->
-  <!-- Start: After Content -->
   {% if page.after_content %}
+  <!-- Start: After Content -->
     {{ page.after_content }}
-  {% endif %}
   <!-- End: After Content -->
-  <!-- Start: Footer -->
-  {% if page.footer %}
-    {{ page.footer }}
   {% endif %}
+  {% if page.footer %}
+  <!-- Start: Footer -->
+    {{ page.footer }}
   <!-- End: Footer -->
+  {% endif %}
 </div>
