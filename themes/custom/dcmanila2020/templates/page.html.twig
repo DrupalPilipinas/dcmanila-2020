@@ -62,7 +62,7 @@
   {% endif %}
   <!-- End: Page Title -->
   <!-- Start: Content -->
-  {% if path('<current>') == '/be-a-sponsor' or path('<current>') == '/be-a-speaker' %}
+  {% if path('<current>') != '/be-a-sponsor' or path('<current>') != '/be-a-speaker' %}
     {% if page.content %}
       {{ page.content }}
     {% endif %}
