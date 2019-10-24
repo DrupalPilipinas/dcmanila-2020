@@ -17,5 +17,7 @@ regions:
   before_content: 'Before Content'
   page_title: 'Page Title'
   content: 'Content'
+  content_left: 'Content Left'
+  content_right: 'Content Right'
   after_content: 'After Content'
   footer: 'Footer'
