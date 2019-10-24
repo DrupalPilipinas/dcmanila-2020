@@ -62,8 +62,10 @@
   {% endif %}
   <!-- End: Page Title -->
   <!-- Start: Content -->
-  {% if page.content %}
-    {{ page.content }}
+  {% if path('<current>') == '/be-a-sponsor' or path('<current>') == '/be-a-speaker' %}
+    {% if page.content %}
+      {{ page.content }}
+    {% endif %}
   {% endif %}
   <!-- End: Content -->
   <!-- Start: Content Left and Right -->
