@@ -67,7 +67,7 @@
   {% endif %}
   <!-- End: Content -->
   <!-- Start: Content Left and Right -->
-  {% if page.content_left && page.content_right %}
+  {% if page.content_left and page.content_right %}
     <div class="row">
       <div class="col-sm-6">
         {{ page.content_left }}
@@ -76,6 +76,7 @@
         {{ page.content_right }}
       </div>
     </div>
+  {% endif %}
   <!-- End: Content Left and Right -->
   <!-- Start: After Content -->
   {% if page.after_content %}
