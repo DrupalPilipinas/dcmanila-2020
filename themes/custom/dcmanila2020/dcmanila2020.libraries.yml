@@ -1,0 +1,9 @@
+style:
+  css:
+    theme:
+      assets/css/bootstrap.min.css: {}
+      assets/css/site.css: {}
+  js:
+    assets/js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,15 @@
+<?php
+/**
+ * Implements hook_preprocess_menu().
+ */
+function dcmanila2020_preprocess_menu(&$variables, $hook) {
+  if ($hook == 'menu__main') {
+    $current_path = \Drupal::request()->getRequestUri();
+    $items = $variables['items'];
+    foreach ($items as $key => $item) {
+      if ($item['url']->toString() == $current_path) {
+        $variables['items'][$key]['attributes']['class'] = 'active';
+      }
+    }
+  }
+}

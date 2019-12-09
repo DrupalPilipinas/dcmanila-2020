@@ -1,0 +1,10 @@
+{%
+  set classes = [
+    'form-control',
+    resizable ? 'resize-' ~ resizable,
+    required ? 'required',
+  ]
+%}
+<div{{ wrapper_attributes.addClass('form-textarea-wrapper', 'mb-10') }}>
+  <textarea{{ attributes.addClass(classes) }}>{{ value }}</textarea>
+</div>

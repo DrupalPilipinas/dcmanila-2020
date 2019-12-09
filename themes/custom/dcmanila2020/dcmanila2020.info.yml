@@ -1,0 +1,23 @@
+name: Drupal Camp Manila
+description: 'Drupal Camp Manila.'
+version: '8.x-2020'
+package: 'custom'
+core: '8.x'
+type: theme
+libraries:
+  - dcmanila2020/style
+regions:
+  beforemenu1: 'Before Menu 1'
+  beforemenu2: 'Before Menu 2'
+  beforemenu3: 'Before Menu 3'
+  beforemenu4: 'Before Menu 4'
+  sitebrand: 'Site Branding'
+  mainmenu: 'Main Menu'
+  banner: 'Banner'
+  before_content: 'Before Content'
+  page_title: 'Page Title'
+  content: 'Content'
+  content_left: 'Content Left'
+  content_right: 'Content Right'
+  after_content: 'After Content'
+  footer: 'Footer'

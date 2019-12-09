@@ -1,0 +1,94 @@
+<!-- Start: Before Menu -->
+<div class="container-fluid">
+  <div class="row before-menu mb-0">
+    <div class="col-sm-3">
+      {% if page.beforemenu1 %}
+        {{ page.beforemenu1 }}
+      {% endif %}
+    </div>
+    <div class="col-sm-2">
+      {% if page.beforemenu2 %}
+        {{ page.beforemenu2 }}
+      {% endif %}
+    </div>
+    <div class="col-sm-2">
+      {% if page.beforemenu3 %}
+        {{ page.beforemenu3 }}
+      {% endif %}
+    </div>
+    <div class="col-sm-5">
+      {% if page.beforemenu4 %}
+        {{ page.beforemenu4 }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+<!-- End: Before Menu -->
+<!-- Start: Main Menu -->
+<div class="navbar navbar-primary mb-0 b-r-0 bg-primary">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainMenu">
+        <span class="icon-bar bg-white"></span>
+        <span class="icon-bar bg-white"></span>
+        <span class="icon-bar bg-white"></span>
+      </button>
+      {% if page.sitebrand %}
+        {{ page.sitebrand }}
+      {% endif %}
+    </div>
+    {% if page.mainmenu %}
+      <div class="collapse navbar-collapse" id="mainMenu">
+        {{ page.mainmenu }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+<!-- End: Main Menu -->
+{% if page.banner %}
+<!-- Start: banner -->
+  {{ page.banner }}
+<!-- End: banner -->
+{% endif %}
+<div class="container-fluid">
+  {% if page.before_content %}
+  <!-- Start: Before Content -->
+    {{ page.before_content }}
+  <!-- End: Before Content -->
+  {% endif %}
+  {% if page.page_title %}
+  <!-- Start: Page Title -->
+    {{ page.page_title }}
+  <!-- End: Page Title -->
+  {% endif %}
+  {% if path('<current>') == '/be-a-sponsor' or path('<current>') == '/be-a-speaker' %}
+    {% if page.content_left and page.content_right %}
+    <!-- Start: Content Left and Right -->
+      <div class="row">
+        <div class="col-sm-6">
+          {{ page.content_left }}
+        </div>
+        <div class="col-sm-6">
+          {{ page.content_right }}
+        </div>
+      </div>
+    <!-- End: Content Left and Right -->
+    {% endif %}
+  {% else %}
+    {% if page.content %}
+      <!-- Start: Content -->
+      {{ page.content }}
+      <!-- End: Content -->
+    {% endif %}
+  {% endif %}
+  {% if page.after_content %}
+  <!-- Start: After Content -->
+    {{ page.after_content }}
+  <!-- End: After Content -->
+  {% endif %}
+  {% if page.footer %}
+  <!-- Start: Footer -->
+    {{ page.footer }}
+  <!-- End: Footer -->
+  {% endif %}
+</div>
