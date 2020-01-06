@@ -29,7 +29,6 @@ class ComposerStaticInitf58dd9d2e64a825de7df7497c1354a33
     public static $prefixLengthsPsr4 = array (
         'Z' => 
         array (
-            'Zumba\\GastonJS\\' => 15,
             'Zend\\Stdlib\\' => 12,
             'Zend\\Feed\\' => 10,
             'Zend\\Escaper\\' => 13,
@@ -66,6 +65,7 @@ class ComposerStaticInitf58dd9d2e64a825de7df7497c1354a33
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
         ),
@@ -109,10 +109,6 @@ class ComposerStaticInitf58dd9d2e64a825de7df7497c1354a33
     );
 
     public static $prefixDirsPsr4 = array (
-        'Zumba\\GastonJS\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/pear/archive_tar/src',
-        ),
         'Zend\\Stdlib\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
@@ -220,6 +216,10 @@ class ComposerStaticInitf58dd9d2e64a825de7df7497c1354a33
         'Symfony\\Bridge\\PsrHttpMessage\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
         'Psr\\Http\\Message\\' => 
         array (
@@ -348,6 +348,13 @@ class ComposerStaticInitf58dd9d2e64a825de7df7497c1354a33
             'Console' => 
             array (
                 0 => __DIR__ . '/..' . '/pear/console_getopt',
+            ),
+        ),
+        'A' => 
+        array (
+            'Archive_Tar' => 
+            array (
+                0 => __DIR__ . '/..' . '/pear/archive_tar',
             ),
         ),
     );

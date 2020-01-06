@@ -12,5 +12,6 @@ return array(
     'EasyRdf_' => array($vendorDir . '/easyrdf/easyrdf/lib'),
     'Doctrine\\Common\\Collections\\' => array($vendorDir . '/doctrine/collections/lib'),
     'Console' => array($vendorDir . '/pear/console_getopt'),
+    'Archive_Tar' => array($vendorDir . '/pear/archive_tar'),
     '' => array($vendorDir . '/pear/pear-core-minimal/src'),
 );

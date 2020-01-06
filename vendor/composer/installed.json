@@ -1164,58 +1164,6 @@
         ]
     },
     {
-        "name": "drupal/d8w3css",
-        "version": "1.15.0",
-        "version_normalized": "1.15.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://git.drupalcode.org/project/d8w3css.git",
-            "reference": "8.x-1.15"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/d8w3css-8.x-1.15.zip",
-            "reference": "8.x-1.15",
-            "shasum": "6f94f74f00d0017ca5607e830c3551c3285d52d4"
-        },
-        "require": {
-            "drupal/core": "~8.0"
-        },
-        "type": "drupal-theme",
-        "extra": {
-            "branch-alias": {
-                "dev-1.x": "1.x-dev"
-            },
-            "drupal": {
-                "version": "8.x-1.15",
-                "datestamp": "1551854884",
-                "security-coverage": {
-                    "status": "not-covered",
-                    "message": "Project has not opted into security advisory coverage!"
-                }
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packages.drupal.org/8/downloads",
-        "license": [
-            "GPL-2.0-or-later"
-        ],
-        "authors": [
-            {
-                "name": "drupalcare.com",
-                "homepage": "https://www.drupal.org/user/3008363"
-            },
-            {
-                "name": "flashwebcenter",
-                "homepage": "https://www.drupal.org/user/1321114"
-            }
-        ],
-        "homepage": "https://www.drupal.org/project/d8w3css",
-        "support": {
-            "source": "https://git.drupalcode.org/project/d8w3css"
-        }
-    },
-    {
         "name": "easyrdf/easyrdf",
         "version": "0.9.1",
         "version_normalized": "0.9.1.0",
@@ -1662,47 +1610,56 @@
             "shasum": ""
         },
         "require": {
-            "guzzlehttp/guzzle": "~5.0|~6.0",
-            "php": ">=5.4"
+            "pear/pear-core-minimal": "^1.10.0alpha2",
+            "php": ">=5.2.0"
         },
         "require-dev": {
-            "phpunit/phpunit": "~4.6",
-            "silex/silex": "~1.2",
-            "symfony/phpunit-bridge": "~2.7",
-            "symfony/process": "~2.1"
+            "phpunit/phpunit": "*"
+        },
+        "suggest": {
+            "ext-bz2": "Bz2 compression support.",
+            "ext-xz": "Lzma2 compression support.",
+            "ext-zlib": "Gzip compression support."
         },
         "time": "2019-12-04T10:17:28+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.1.x-dev"
+                "dev-master": "1.4.x-dev"
             }
         },
         "installation-source": "dist",
         "autoload": {
-            "psr-4": {
-                "Zumba\\GastonJS\\": "src"
+            "psr-0": {
+                "Archive_Tar": ""
             }
         },
         "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "./"
+        ],
         "license": [
-            "MIT"
+            "BSD-3-Clause"
         ],
         "authors": [
             {
-                "name": "Juan Francisco Calderón Zumba",
-                "email": "juanfcz@gmail.com",
-                "homepage": "http://github.com/jcalderonzumba"
+                "name": "Vincent Blavet",
+                "email": "vincent@phpconcept.net"
+            },
+            {
+                "name": "Greg Beaver",
+                "email": "greg@chiaraquartet.net"
+            },
+            {
+                "name": "Michiel Rook",
+                "email": "mrook@php.net"
             }
         ],
-        "description": "PhantomJS API based server for webpage automation",
-        "homepage": "https://github.com/jcalderonzumba/gastonjs",
+        "description": "Tar file management class with compression support (gzip, bzip2, lzma2)",
+        "homepage": "https://github.com/pear/Archive_Tar",
         "keywords": [
-            "api",
-            "automation",
-            "browser",
-            "headless",
-            "phantomjs"
+            "archive",
+            "tar"
         ]
     },
     {
@@ -1976,34 +1933,37 @@
             "shasum": ""
         },
         "require": {
-            "ext-simplexml": "*",
-            "ext-tokenizer": "*",
-            "ext-xmlwriter": "*",
-            "php": ">=5.4.0"
+            "php": ">=5.3.0"
         },
         "time": "2018-11-20T15:27:04+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "3.x-dev"
+                "dev-master": "1.0.x-dev"
             }
         },
         "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "BSD-3-Clause"
+            "MIT"
         ],
         "authors": [
             {
-                "name": "Greg Sherwood",
-                "role": "lead"
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
             }
         ],
-        "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
-        "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
         "keywords": [
-            "phpcs",
-            "standards"
+            "log",
+            "psr",
+            "psr-3"
         ]
     },
     {
