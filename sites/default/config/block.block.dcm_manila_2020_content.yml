@@ -1,0 +1,35 @@
+uuid: 9ca763b3-f454-4de3-a3ae-8cf7e78fe1e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+  theme:
+    - dcm_manila_2020
+_core:
+  default_config_hash: bSh87nayw-Fh7x0auxPJoNHFokn1zFwX9KSyLpcH0Bg
+id: dcm_manila_2020_content
+theme: dcm_manila_2020
+region: content
+weight: -15
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /be-a-speaker
+    negate: true
+    context_mapping: {  }

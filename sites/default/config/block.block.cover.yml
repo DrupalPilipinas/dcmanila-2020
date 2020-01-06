@@ -1,0 +1,25 @@
+uuid: 4bb10175-2be0-4ca9-85fa-8ec561b7072f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f1c3a43f-da90-4f25-8f77-3e1cbbf0a016'
+  module:
+    - block_content
+  theme:
+    - dcmanila2020
+id: cover
+theme: dcmanila2020
+region: banner
+weight: -13
+provider: null
+plugin: 'block_content:f1c3a43f-da90-4f25-8f77-3e1cbbf0a016'
+settings:
+  id: 'block_content:f1c3a43f-da90-4f25-8f77-3e1cbbf0a016'
+  label: Cover
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,39 @@
+uuid: 61412353-c822-4e25-951b-49d71d32bc5f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0e4d6081-796b-43c2-bebc-9daf600b9dd5'
+  module:
+    - block_content
+    - node
+    - system
+  theme:
+    - dcm_manila_2020
+id: dcm_manila_2020_beasponsorcontent
+theme: dcm_manila_2020
+region: navigation
+weight: 0
+provider: null
+plugin: 'block_content:0e4d6081-796b-43c2-bebc-9daf600b9dd5'
+settings:
+  id: 'block_content:0e4d6081-796b-43c2-bebc-9daf600b9dd5'
+  label: 'Be A Sponsor Content'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /be-a-sponsor
+    negate: false
+    context_mapping: {  }

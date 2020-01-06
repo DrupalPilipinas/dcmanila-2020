@@ -1,0 +1,30 @@
+uuid: d312f719-0661-4bc4-b725-b42fbbd9ab2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - system
+    - views
+  theme:
+    - dcmanila2020
+id: views_block__sponsors_block_4
+theme: dcmanila2020
+region: content
+weight: -12
+provider: null
+plugin: 'views_block:sponsors-block_4'
+settings:
+  id: 'views_block:sponsors-block_4'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /sponsors
+    negate: false
+    context_mapping: {  }

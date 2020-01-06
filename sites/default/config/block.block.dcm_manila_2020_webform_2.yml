@@ -1,0 +1,39 @@
+uuid: 1eadf93b-5bb1-4caa-a30e-b1856c8a281a
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.be_a_speaker
+  module:
+    - node
+    - system
+    - webform
+  theme:
+    - dcm_manila_2020
+id: dcm_manila_2020_webform_2
+theme: dcm_manila_2020
+region: navigation
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Be A Speaker Form'
+  provider: webform
+  label_display: '0'
+  webform_id: be_a_speaker
+  default_data: ''
+  redirect: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /be-a-speaker
+    negate: false
+    context_mapping: {  }

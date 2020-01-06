@@ -1,0 +1,25 @@
+uuid: 01f8d491-5629-4c18-8f25-b7a116c49723
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5f7b838c-634a-4cba-806f-798f61771c47'
+  module:
+    - block_content
+  theme:
+    - dcm_manila_2020
+id: dcm_manila_2020_eventlogo
+theme: dcm_manila_2020
+region: navigation
+weight: 0
+provider: null
+plugin: 'block_content:5f7b838c-634a-4cba-806f-798f61771c47'
+settings:
+  id: 'block_content:5f7b838c-634a-4cba-806f-798f61771c47'
+  label: 'Event Logo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

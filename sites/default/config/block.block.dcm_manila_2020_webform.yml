@@ -1,0 +1,39 @@
+uuid: 8f10c5e6-7694-4813-af89-d93b8ee36956
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.be_a_sponsor
+  module:
+    - node
+    - system
+    - webform
+  theme:
+    - dcm_manila_2020
+id: dcm_manila_2020_webform
+theme: dcm_manila_2020
+region: navigation
+weight: -14
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Be A Sponsor Form'
+  provider: webform
+  label_display: '0'
+  webform_id: be_a_sponsor
+  default_data: ''
+  redirect: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: /be-a-sponsor
+    negate: false
+    context_mapping: {  }

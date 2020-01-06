@@ -1,0 +1,18 @@
+uuid: 56cf4bd0-fd6e-4207-9252-52a78dc9d793
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dcm_manila_2020
+id: dcm_manila_2020_pagetitle
+theme: dcm_manila_2020
+region: navigation
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

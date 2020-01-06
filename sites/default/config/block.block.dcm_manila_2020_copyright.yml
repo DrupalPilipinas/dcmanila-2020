@@ -1,0 +1,25 @@
+uuid: 31d88172-d414-49ae-af4e-771268b67d71
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:27588193-4666-45c4-aede-093b1af9cea5'
+  module:
+    - block_content
+  theme:
+    - dcm_manila_2020
+id: dcm_manila_2020_copyright
+theme: dcm_manila_2020
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:27588193-4666-45c4-aede-093b1af9cea5'
+settings:
+  id: 'block_content:27588193-4666-45c4-aede-093b1af9cea5'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

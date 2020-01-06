@@ -1,0 +1,45 @@
+uuid: be8ceecd-1e0b-47a5-8f34-a37f6e6993de
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_list
+field_name: field_list
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: bronze
+      label: Bronze
+    -
+      value: silver
+      label: Silver
+    -
+      value: gold
+      label: Gold
+    -
+      value: platinum
+      label: Platinum
+    -
+      value: community
+      label: 'Community Partners'
+    -
+      value: donor
+      label: Donor
+    -
+      value: media
+      label: 'Media Partners'
+    -
+      value: organizing
+      label: 'Organizing Partners'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

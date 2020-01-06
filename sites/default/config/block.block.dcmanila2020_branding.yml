@@ -1,0 +1,25 @@
+uuid: acbf1afc-5941-499c-a8b0-aaff96c00377
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dcmanila2020
+_core:
+  default_config_hash: 3kluVX6xVfYuKg2AKx3K6lVMrllIykqTJoy7HsrOwPI
+id: dcmanila2020_branding
+theme: dcmanila2020
+region: sitebrand
+weight: -2
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 30419c41-bf5c-4f93-bab1-af6bd84ced4c
+name: 'Drupal Camp Manila 2020'
+mail: hello@drupal.org.ph
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

@@ -1,0 +1,23 @@
+uuid: 4037c61f-830d-4cce-a9f9-a3b459a14a61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list
+    - node.type.sponsors
+  module:
+    - options
+id: node.sponsors.field_list
+field_name: field_list
+entity_type: node
+bundle: sponsors
+label: 'Sponsor Type'
+description: 'Type of Sponsor'
+required: true
+translatable: false
+default_value:
+  -
+    value: bronze
+default_value_callback: ''
+settings: {  }
+field_type: list_string

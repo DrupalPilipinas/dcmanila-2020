@@ -1,0 +1,18 @@
+uuid: 39230137-c550-442f-9a21-6da9ac4dd81f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dcmanila2020
+id: pagetitle
+theme: dcmanila2020
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

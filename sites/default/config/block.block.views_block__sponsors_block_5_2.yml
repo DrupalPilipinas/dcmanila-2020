@@ -1,0 +1,24 @@
+uuid: 2df8a9ae-5ac7-45a7-a7ef-87239db674d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - views
+  theme:
+    - dcmanila2020
+id: views_block__sponsors_block_5_2
+theme: dcmanila2020
+region: beforemenu4
+weight: 0
+provider: null
+plugin: 'views_block:sponsors-block_5'
+settings:
+  id: 'views_block:sponsors-block_5'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

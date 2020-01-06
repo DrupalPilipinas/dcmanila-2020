@@ -1,0 +1,30 @@
+uuid: ab066ebf-7535-4270-b9fd-c6fa6b22c021
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - system
+    - views
+  theme:
+    - dcm_manila_2020
+id: dcm_manila_2020_views_block__sponsors_block_4
+theme: dcm_manila_2020
+region: content
+weight: -12
+provider: null
+plugin: 'views_block:sponsors-block_4'
+settings:
+  id: 'views_block:sponsors-block_4'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /sponsors
+    negate: false
+    context_mapping: {  }

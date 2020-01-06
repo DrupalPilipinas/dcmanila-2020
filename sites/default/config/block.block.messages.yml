@@ -1,0 +1,25 @@
+uuid: 0317ea53-47e2-41ab-b668-1aa240d5a1fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dcmanila2020
+id: messages
+theme: dcmanila2020
+region: content_right
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/be-a-speaker\r\n/be-a-sponsor"
+    negate: false
+    context_mapping: {  }
