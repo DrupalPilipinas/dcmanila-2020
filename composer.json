@@ -24,6 +24,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/d8w3css": "^1.15",
+        "drupal/mapsblock": "^1.0",
         "drupal/paragraph_blocks": "^2.1@beta",
         "drupal/views_slideshow": "^4.6"
     },
