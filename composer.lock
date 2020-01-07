@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1b575780d8ae602930cb93738e66f9a",
+    "content-hash": "5d43f7aa542a0cdabf51d186da3ef32a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -839,6 +839,53 @@
             }
         },
         {
+            "name": "drupal/ckeditor_bootstrap_grid",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ckeditor_bootstrap_grid.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_bootstrap_grid-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "ccd29a967a7a1d51b35e5acd7beee977f6bbc68c"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1538514417",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "lexsoft",
+                    "homepage": "https://www.drupal.org/user/3487887"
+                }
+            ],
+            "description": "Adds Bootstrap Grid to CKEditor",
+            "homepage": "https://www.drupal.org/project/ckeditor_bootstrap_grid",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ckeditor_bootstrap_grid"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "8.8.1",
             "source": {
@@ -1477,69 +1524,6 @@
             }
         },
         {
-            "name": "drupal/mapsblock",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/mapsblock.git",
-                "reference": "8.x-1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/mapsblock-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "27ad8382020959c6f4579ee12e52b050f9b90838"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1543914180",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "harika gujjula",
-                    "homepage": "https://www.drupal.org/user/2978505"
-                },
-                {
-                    "name": "imalabya",
-                    "homepage": "https://www.drupal.org/user/2641255"
-                },
-                {
-                    "name": "johnny_aroza",
-                    "homepage": "https://www.drupal.org/user/3515202"
-                },
-                {
-                    "name": "sdxt",
-                    "homepage": "https://www.drupal.org/user/3435789"
-                },
-                {
-                    "name": "zuhair_ak",
-                    "homepage": "https://www.drupal.org/user/3398232"
-                }
-            ],
-            "description": "Provides a block which renders Google map on address input.",
-            "homepage": "https://www.drupal.org/project/mapsblock",
-            "support": {
-                "source": "https://git.drupalcode.org/project/mapsblock"
-            }
-        },
-        {
             "name": "drupal/paragraph_blocks",
             "version": "2.1.0-beta5",
             "source": {
@@ -1674,6 +1658,53 @@
             "homepage": "https://www.drupal.org/project/paragraphs",
             "support": {
                 "source": "https://git.drupalcode.org/project/paragraphs"
+            }
+        },
+        {
+            "name": "drupal/social_icons",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/social_icons.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/social_icons-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "c7497ad2c90ed74f8b876c2400bdfc2581ccdf7d"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1522783685",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "learnbydrop",
+                    "homepage": "https://www.drupal.org/user/1463646"
+                }
+            ],
+            "description": "Show social icons in a block",
+            "homepage": "https://www.drupal.org/project/social_icons",
+            "support": {
+                "source": "https://git.drupalcode.org/project/social_icons"
             }
         },
         {

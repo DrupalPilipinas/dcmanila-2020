@@ -19,13 +19,14 @@
         "drupal/admin_menu": "3.x-dev",
         "drupal/bootstrap": "^3.21",
         "drupal/bootstrap_layouts": "^5.1",
+        "drupal/ckeditor_bootstrap_grid": "^1.2",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/d8w3css": "^1.15",
-        "drupal/mapsblock": "^1.0",
         "drupal/paragraph_blocks": "^2.1@beta",
+        "drupal/social_icons": "^1.0",
         "drupal/views_slideshow": "^4.6"
     },
     "require-dev": {
