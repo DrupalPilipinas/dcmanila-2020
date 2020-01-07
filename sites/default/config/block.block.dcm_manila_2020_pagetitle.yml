@@ -6,8 +6,8 @@ dependencies:
     - dcm_manila_2020
 id: dcm_manila_2020_pagetitle
 theme: dcm_manila_2020
-region: navigation
-weight: 0
+region: content
+weight: -9
 provider: null
 plugin: page_title_block
 settings:

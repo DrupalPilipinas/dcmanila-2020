@@ -1,0 +1,25 @@
+uuid: e13a9589-f435-4a2a-9191-eeaa36641ec8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f653505f-85db-4833-903b-6f47912ba056'
+  module:
+    - block_content
+  theme:
+    - dcm_manila_2020
+id: secondaryplaceholder
+theme: dcm_manila_2020
+region: footer2
+weight: 0
+provider: null
+plugin: 'block_content:f653505f-85db-4833-903b-6f47912ba056'
+settings:
+  id: 'block_content:f653505f-85db-4833-903b-6f47912ba056'
+  label: 'Secondary Placeholder'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
