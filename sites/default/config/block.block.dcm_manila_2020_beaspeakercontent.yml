@@ -12,8 +12,8 @@ dependencies:
     - dcm_manila_2020
 id: dcm_manila_2020_beaspeakercontent
 theme: dcm_manila_2020
-region: navigation
-weight: 0
+region: header
+weight: -8
 provider: null
 plugin: 'block_content:dc638eec-f5cd-479b-9c54-fc892f459e56'
 settings:

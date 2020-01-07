@@ -12,7 +12,7 @@ _core:
   default_config_hash: d1YBWkT-Xltc40K8rF69EzKs_E2j6SSKsq3cXwfZCzQ
 id: dcm_manila_2020_main_menu
 theme: dcm_manila_2020
-region: navigation
+region: navigation_collapsible
 weight: -6
 provider: null
 plugin: 'system_menu_block:main'

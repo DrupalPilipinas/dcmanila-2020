@@ -12,8 +12,8 @@ dependencies:
     - dcm_manila_2020
 id: dcm_manila_2020_webform_2
 theme: dcm_manila_2020
-region: navigation
-weight: 0
+region: header
+weight: -7
 provider: null
 plugin: webform_block
 settings:

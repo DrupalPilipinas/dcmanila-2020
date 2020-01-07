@@ -8,8 +8,8 @@ dependencies:
     - dcm_manila_2020
 id: dcm_manila_2020_messages
 theme: dcm_manila_2020
-region: navigation
-weight: 0
+region: content
+weight: -10
 provider: null
 plugin: system_messages_block
 settings:
