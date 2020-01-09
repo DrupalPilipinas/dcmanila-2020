@@ -320,13 +320,13 @@ div.container.hero  {
 	overflow: hidden;
 }
 
-
 .hero .row .col-1 {
 	display: flex;
 	flex-direction: column;
 }
 
 .hero-detail-group {
+	margin-left: 1em;
 	align-content: flex-end;
 	align-self: flex-end;
 }
