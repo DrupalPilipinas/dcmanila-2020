@@ -21,6 +21,11 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   font-weight: 400;
 }
 
+div.layout {
+  margin-top: 1em;
+  padding: 5px;
+}
+
 /* Navigation Top - Site Branding */
 
 #block-campdates {
@@ -49,18 +54,25 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   font-size: 3em;
 }
 
+
 /* Why Drupal Camp Is For You */
+.field--item:nth-of-type(odd) .layout--twocol-section {
+  flex-direction: row-reverse;
+}
 
 .layout__region.layout__region--second {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4em;
 }
 
 .block-field-blocknodepagefield-why-drupalcamp .layout__region--second {
   background: url(../images/background_grey.png) center center;
   background-repeat: repeat-x;
   background-size: cover;
+  vertical-align: middle;
 }
 
 section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp-is-for-youfield-title {
