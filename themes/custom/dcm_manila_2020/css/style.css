@@ -205,6 +205,7 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
 
 .content h2 {
   font-size: 3em;
+  margin-top: 2em;
 }
 
 /* Schedule Section */ 
@@ -264,22 +265,21 @@ section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp
 /* Call To Action */
 .call-to-action .col-sm-4 {
   background-color: white;
-  margin: 5px auto;
 }
 
 .call-to-action h3 {
-  position: relative;
-  top: 1.2em;
   text-transform: capitalize;
   text-align: center;
   color: #D92B5A;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .call-to-action img {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   border: 5px dashed #0a547b;
   border-radius: 5px;
-  border-bottom: url(../images/pattern-1.png)
 }
 
 .call-to-action h4 {
@@ -287,6 +287,7 @@ section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp
 }
 
 .call-to-action .btn {
+  position: relative;
   background: #D92B5A;
   font-size: 1.2em;
   color: white;
