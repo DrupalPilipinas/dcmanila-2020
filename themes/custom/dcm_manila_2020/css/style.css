@@ -14,6 +14,9 @@ fff - white color on blue bg
 */
 
 /* Basics */
+html, body {
+  font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+}
 
 div, h1, h2, h3, h4, h5, h6, span, a, p {
   font-family: 'Baloo-Regular';
@@ -190,8 +193,19 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   position:absolute;
 }
 
+section#block-venuemap {
+  margin-bottom: 10px;
+}
+
+section#block-venuemap img {
+  margin: 0 auto;
+  padding: 10px;
+}
 
 
+.venue-address a {
+  color: rgb(249, 99, 124);
+}
 
 
 /* Homepage Specific */
@@ -205,17 +219,17 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
 
 .content h2 {
   font-size: 3em;
-  margin-top: 2em;
+  margin-top: 30px;
 }
 
 /* Schedule Section */ 
 #main-content .schedule {
   background: #0D9FD9;
-  padding: 1em;
-  margin: 1em;
+  padding: 15px;
+  margin: .5em;
   border: 5px dashed #0a547b;
-  border-radius: 2em;
-  min-width: 420px;
+  border-radius: 15px;
+  min-width: fit-content;
   min-height: fit-content;
   color: white;
 }
@@ -230,12 +244,12 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   flex-direction: row-reverse;
 }
 
-.layout__region.layout__region--second {
+.block-field-blocknodepagefield-why-drupalcamp .layout__region.layout__region--second {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 4em;
+  padding: 2em;
 }
 
 .block-field-blocknodepagefield-why-drupalcamp .layout__region--second {
