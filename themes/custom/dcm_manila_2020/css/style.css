@@ -35,6 +35,9 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   color: #0a547b
 }
 
+
+/* Homepage Specific */
+
 .content h2,
 .content h1 {
     color: #E12B4A;
@@ -44,6 +47,21 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
 
 .content h2 {
   font-size: 3em;
+}
+
+/* Why Drupal Camp Is For You */
+.block-field-blocknodepagefield-why-drupalcamp .layout__region--second {
+  background: url(../images/background_grey.png) center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.block-field-blocknodepagefield-why-drupalcamp .layout__region--second .field-item {
+  color: #0a547b;
+  font-size: 2em;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em;
 }
 
 /*
