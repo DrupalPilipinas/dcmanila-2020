@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5332e54acf0179fa6623ec787924a05",
+    "content-hash": "3dc0a5ebe28e6c0fc6d6869a9f838097",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1642,17 +1642,17 @@
         },
         {
             "name": "drupal/fontawesome",
-            "version": "2.14.0",
+            "version": "2.15.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/fontawesome.git",
-                "reference": "8.x-2.14"
+                "reference": "8.x-2.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.14.zip",
-                "reference": "8.x-2.14",
-                "shasum": "5bba6b1cba7450256defc36a0cbfdd70744bde1d"
+                "url": "https://ftp.drupal.org/files/projects/fontawesome-8.x-2.15.zip",
+                "reference": "8.x-2.15",
+                "shasum": "d3ee7a02ddd01c14cab44afcd6f3e55cfa3d0491"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1663,8 +1663,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.14",
-                    "datestamp": "1564762385",
+                    "version": "8.x-2.15",
+                    "datestamp": "1578431890",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3120,6 +3120,18 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "heiseonline/shariff",
+            "version": "2.0.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/heiseonline/shariff/releases/download/2.0.4/shariff-2.0.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.2.0"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "html2text/html2text",
@@ -5600,7 +5612,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/admin_menu": 20,
-        "drupal/paragraph_blocks": 10
+        "drupal/paragraph_blocks": 10,
+        "drupal/simple_recaptcha": 15,
+        "drupal/swiftmailer": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
