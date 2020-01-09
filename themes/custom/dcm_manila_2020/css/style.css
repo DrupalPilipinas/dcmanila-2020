@@ -18,12 +18,6 @@ html, body {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif;
 }
 
-div, h1, h2, h3, h4, h5, h6, span, a, p {
-  font-family: 'Baloo-Regular';
-  font-style: normal;
-  font-weight: 400;
-}
-
 /* Navigation Top - Site Branding */
 
 #block-campdates {
@@ -85,7 +79,7 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
 }
 #banner .header-bgc-content {
   background: url(../images/header-bg-1.png) center top no-repeat;
-  min-height: 465px;
+  min-height: 640px;
 }
 #banner .header-bgc-content .join-now {
   padding: 25px 0;
@@ -307,5 +301,97 @@ section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp
   color: white;
   bottom: 4em;
   max-width: 70%;
+}
+
+
+/* Hero Image */
+.hero-block  {
+	color: white;
+	background: #fefefe url("/themes/custom/dcm_manila_2020/images/triangle-bottom-colored.png") bottom center repeat-x;
+	background-size: contain;
+	height: 600px;
+	overflow: hidden;
+}
+
+div.container.hero  {
+	background: #818181 url("/themes/custom/dcm_manila_2020/images/hero-image.jpg") center center no-repeat;
+	background-size: cover;
+	height: 600px;
+	overflow: hidden;
+}
+
+
+.hero .row .col-1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-detail-group {
+	align-content: flex-end;
+	align-self: flex-end;
+}
+
+.main-header {
+	min-width: 100%;
+}
+
+.main-header .drupalcamp {
+	color: #0d9fd9;
+	font-family: "Segoe UI" Arial Helvetica sans-serif;
+	font-weight: 700;
+}
+
+.main-header .manila-2020 {
+	color: #0d9fd9;
+	font-family: "Segoe UI" Arial Helvetica sans-serif;
+	font-weight: 700;
+}
+
+h3.hero.city {
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+h3.hero.dates {
+	letter-spacing: 1px;
+	line-height: 1;
+	margin-top: 5px;
+    margin-bottom: 0;
+
+}
+
+h4.hero.venue {
+	letter-spacing: 1px;
+	line-height: 1;
+	margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.hero-block .btn {
+  background: #D92B5A;
+  font-size: 1.5em;
+  color: white;
+  flex: 1;
+  margin: 10px auto;
+}
+
+.hero-block .hero .col-2 {
+	overflow: hidden;
+}
+.hero-block .hero .col-2 img {
+	margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+
+/* Font */
+
+div, h1, h2, h3, h4, h5, h6, span, a, p {
+  font-family: 'Baloo-Regular';
+  font-style: normal;
+  font-weight: 400;
 }
 
