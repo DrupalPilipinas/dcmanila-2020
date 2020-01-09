@@ -304,19 +304,22 @@ section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp
 }
 
 
+
 /* Hero Image */
+
 .hero-block  {
-	color: white;
-	background: #fefefe url("/themes/custom/dcm_manila_2020/images/triangle-bottom-colored.png") bottom center repeat-x;
-	background-size: contain;
-	height: 600px;
+	color: #353a44;
+	background: rgba(255,255,255, 0.0) url("/themes/custom/dcm_manila_2020/images/drupalcamp-manila-2020-hero-img-left.jpg") center top no-repeat;
+	background-size: 1170px;
+	height: 720px;
 	overflow: hidden;
+	text-align: right;
 }
 
 div.container.hero  {
-	background: #818181 url("/themes/custom/dcm_manila_2020/images/hero-image.jpg") center center no-repeat;
-	background-size: cover;
-	height: 600px;
+	background: rgba(255,255,255, 0.0) url("/themes/custom/dcm_manila_2020/images/triangle-bottom-colored.png") center bottom repeat-x;
+	background-size: 420px;
+	height: 720px;
 	overflow: hidden;
 }
 
@@ -325,24 +328,25 @@ div.container.hero  {
 	flex-direction: column;
 }
 
-.hero-detail-group {
-	margin-left: 1em;
+.hero-details-group {
 	align-content: flex-end;
 	align-self: flex-end;
+	background: rgba(255,255,255, 0.3);
 }
 
 .main-header {
 	min-width: 100%;
+	margin-top: 0;
 }
 
 .main-header .drupalcamp {
-	color: #0d9fd9;
+	color: #59aee1;
 	font-family: "Segoe UI" Arial Helvetica sans-serif;
 	font-weight: 700;
 }
 
 .main-header .manila-2020 {
-	color: #0d9fd9;
+	color: #0a547b;
 	font-family: "Segoe UI" Arial Helvetica sans-serif;
 	font-weight: 700;
 }
@@ -384,7 +388,7 @@ h4.hero.venue {
 .hero-block .hero .col-2 img {
 	margin: 0 auto;
     height: auto;
-    width: 100%;
+    margin-top: 1em;
 }
 
 /* Font */
