@@ -450,3 +450,24 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   font-weight: 400;
 }
 
+
+/* Shariff */
+.shariff li {
+	height: 64px
+}
+span.share_text {
+    font-size: 1em !important;
+    font-family: 'Baloo-Regular' !important;
+    text-align: center;
+}
+
+.shariff .orientation-horizontal li {
+	min-width: 90px;
+	text-align: center;
+	margin: 5px 0;
+	min-height: 64px;
+}
+
+.shariff .orientation-horizontal a {
+
+}
