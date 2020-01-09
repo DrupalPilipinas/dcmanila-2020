@@ -13,6 +13,28 @@ fff - white color on blue bg
 818181 -- dark gray footer bg
 */
 
+/* Basics */
+
+div, h1, h2, h3, h4, h5, h6, span, a, p {
+  font-family: 'Baloo-Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Navigation Top - Site Branding */
+
+#block-campdates {
+  float: right;
+}
+
+.baloo-red {
+  color: #D92B5A
+}
+
+.baloo-blue {
+  color: #0a547b
+}
+
 /*
  * #navbar
  */
@@ -50,6 +72,7 @@ fff - white color on blue bg
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border: none;
 }
+
 
 /*
  * banner
