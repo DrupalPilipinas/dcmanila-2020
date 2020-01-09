@@ -26,6 +26,7 @@
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/d8w3css": "^1.15",
         "drupal/fontawesome": "^2.14",
+        "drupal/fontyourface": "^3.2",
         "drupal/paragraph_blocks": "^2.1@beta",
         "drupal/social_icons": "^1.0",
         "drupal/views_slideshow": "^4.6"

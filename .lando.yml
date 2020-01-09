@@ -1,0 +1,6 @@
+name: dcmanila-2020
+recipe: pantheon
+config:
+  framework: drupal8
+  site: dcmanila-2020
+  id: f3339928-7028-417b-932e-a5cf64576b89

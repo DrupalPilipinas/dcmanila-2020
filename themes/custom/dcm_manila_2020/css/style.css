@@ -93,7 +93,7 @@ fff - white color on blue bg
  */
 #footer-secondary {
   background: #818181 url(../images/footer-1-bg-1.png) center top repeat-x;
-  min-height: 400px;
+  min-height: 420px;
   overflow: hidden;
 }
 #footer-secondary .container {
@@ -103,8 +103,8 @@ fff - white color on blue bg
   position: absolute;
   background: url(../images/footer-1-logo-1.png);
   right: -200px;
-  height: 400px;
-  width: 400px;
+  height: 413px;
+  width: 409px;
   z-index: 1;
 }
 #footer-main .container .inner {
@@ -116,7 +116,7 @@ fff - white color on blue bg
  */
 #footer-main {
   background: #0a547b url(../images/pattern-1.png) center top repeat-x;
-  min-height: 120px;
+  min-height: 280px;
   overflow: hidden;
   margin-top: 0;
   border: 0;
