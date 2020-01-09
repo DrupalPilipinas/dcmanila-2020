@@ -1689,6 +1689,123 @@
         }
     },
     {
+        "name": "drupal/hero_block",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/hero_block.git",
+            "reference": "8.x-1.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/hero_block-8.x-1.3.zip",
+            "reference": "8.x-1.3",
+            "shasum": "0020d34d0bfabba26015411840a65765c40b8701"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.3",
+                "datestamp": "1567418285",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "cvsrathore",
+                "homepage": "https://www.drupal.org/user/2595218"
+            }
+        ],
+        "homepage": "https://www.drupal.org/project/hero_block",
+        "support": {
+            "source": "https://git.drupalcode.org/project/hero_block"
+        }
+    },
+    {
+        "name": "drupal/mailsystem",
+        "version": "4.2.0",
+        "version_normalized": "4.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/mailsystem.git",
+            "reference": "8.x-4.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/mailsystem-8.x-4.2.zip",
+            "reference": "8.x-4.2",
+            "shasum": "51d3f4831cdc3fd2748efc750d4946ddb5b50c3c"
+        },
+        "require": {
+            "drupal/core": "^8.7.7 || ^9"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-4.x": "4.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-4.2",
+                "datestamp": "1574194688",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Berdir",
+                "homepage": "https://www.drupal.org/user/214652"
+            },
+            {
+                "name": "Les Lim",
+                "homepage": "https://www.drupal.org/user/84263"
+            },
+            {
+                "name": "Manuel Garcia",
+                "homepage": "https://www.drupal.org/user/213194"
+            },
+            {
+                "name": "Nafes",
+                "homepage": "https://www.drupal.org/user/2489926"
+            },
+            {
+                "name": "miro_dietiker",
+                "homepage": "https://www.drupal.org/user/227761"
+            },
+            {
+                "name": "pillarsdotnet",
+                "homepage": "https://www.drupal.org/user/36148"
+            }
+        ],
+        "description": "Mail System",
+        "homepage": "https://www.drupal.org/project/mailsystem",
+        "support": {
+            "source": "https://git.drupalcode.org/project/mailsystem"
+        }
+    },
+    {
         "name": "drupal/paragraph_blocks",
         "version": "2.1.0-beta5",
         "version_normalized": "2.1.0.0-beta5",
@@ -1830,6 +1947,124 @@
         }
     },
     {
+        "name": "drupal/sendgrid_integration",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/sendgrid_integration.git",
+            "reference": "8.x-1.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/sendgrid_integration-8.x-1.2.zip",
+            "reference": "8.x-1.2",
+            "shasum": "a3d9baea4389a6f8804adc5f736c9920ae200131"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "drupal/mailsystem": "^4",
+            "fastglass/sendgrid": ">=1.0.6",
+            "html2text/html2text": "~4.0.1"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.2",
+                "datestamp": "1528941232",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL v2"
+        ],
+        "authors": [
+            {
+                "name": "Brady Owens (perignon)",
+                "homepage": "https://www.drupal.org/u/perignon",
+                "role": "Maintainer"
+            },
+            {
+                "name": "exlin",
+                "homepage": "https://www.drupal.org/user/695136"
+            }
+        ],
+        "description": "Drupal module for integrating with the SendGrid API.",
+        "homepage": "https://www.drupal.org/project/sendgrid_integration",
+        "keywords": [
+            "SendGrid",
+            "email",
+            "grid",
+            "php",
+            "send",
+            "sendgrid"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/sendgrid_integration",
+            "issues": "https://drupal.org/project/issues/sendgrid_integration"
+        }
+    },
+    {
+        "name": "drupal/simple_recaptcha",
+        "version": "1.0.0-alpha10",
+        "version_normalized": "1.0.0.0-alpha10",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/simple_recaptcha.git",
+            "reference": "8.x-1.0-alpha10"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/simple_recaptcha-8.x-1.0-alpha10.zip",
+            "reference": "8.x-1.0-alpha10",
+            "shasum": "f0c09cc7cc5a4ba7219ade7bad995ce46b3bff3a"
+        },
+        "require": {
+            "drupal/core": "~8.0"
+        },
+        "require-dev": {
+            "drupal/webform": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha10",
+                "datestamp": "1568206088",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Alpha releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "sandboxpl",
+                "homepage": "https://www.drupal.org/user/2187728"
+            }
+        ],
+        "description": "Provides simple integration with Google reCaptcha, keeping forms and webforms secure.",
+        "homepage": "https://www.drupal.org/project/simple_recaptcha",
+        "support": {
+            "source": "https://git.drupalcode.org/project/simple_recaptcha"
+        }
+    },
+    {
         "name": "drupal/social_icons",
         "version": "1.0.0",
         "version_normalized": "1.0.0.0",
@@ -1876,6 +2111,66 @@
         "homepage": "https://www.drupal.org/project/social_icons",
         "support": {
             "source": "https://git.drupalcode.org/project/social_icons"
+        }
+    },
+    {
+        "name": "drupal/swiftmailer",
+        "version": "1.0.0-beta2",
+        "version_normalized": "1.0.0.0-beta2",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/swiftmailer.git",
+            "reference": "8.x-1.0-beta2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/swiftmailer-8.x-1.0-beta2.zip",
+            "reference": "8.x-1.0-beta2",
+            "shasum": "a63a91e7816a06bf8e52ac9b5e48a892a1e6b1d4"
+        },
+        "require": {
+            "drupal/core": "~8.0",
+            "drupal/mailsystem": "*",
+            "html2text/html2text": "~4.0.1",
+            "swiftmailer/swiftmailer": "~5.4.5"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-beta2",
+                "datestamp": "1519655459",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Beta releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "B-Prod",
+                "homepage": "https://www.drupal.org/user/407852"
+            },
+            {
+                "name": "sbrattla",
+                "homepage": "https://www.drupal.org/user/53422"
+            },
+            {
+                "name": "webflo",
+                "homepage": "https://www.drupal.org/user/254778"
+            }
+        ],
+        "description": "Swiftmailer",
+        "homepage": "https://www.drupal.org/project/swiftmailer",
+        "support": {
+            "source": "https://git.drupalcode.org/project/swiftmailer"
         }
     },
     {
@@ -2063,6 +2358,62 @@
             "emailvalidator",
             "validation",
             "validator"
+        ]
+    },
+    {
+        "name": "fastglass/sendgrid",
+        "version": "1.0.11",
+        "version_normalized": "1.0.11.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/taz77/sendgrid-php-ng.git",
+            "reference": "95f16f748d609f8455b7c4be74fdd1a8febacaea"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/taz77/sendgrid-php-ng/zipball/95f16f748d609f8455b7c4be74fdd1a8febacaea",
+            "reference": "95f16f748d609f8455b7c4be74fdd1a8febacaea",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": ">=6.2.1",
+            "php": ">=5.5.0",
+            "sendgrid/smtpapi": "~0.5"
+        },
+        "replace": {
+            "sendgrid/sendgrid-php": "*"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9",
+            "phpunit/phpunit": "~7.3",
+            "vlucas/phpdotenv": "~1.0"
+        },
+        "time": "2019-01-16T00:58:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SendGrid\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brady Owens",
+                "email": "brady@fastglass.net",
+                "homepage": "https://github.com/taz77"
+            }
+        ],
+        "description": "This library allows you to send emails through SendGrid using PHP and Guzzle 6.x.",
+        "homepage": "https://github.com/taz77/sendgrid-php-ng",
+        "keywords": [
+            "email",
+            "grid",
+            "send",
+            "sendgrid"
         ]
     },
     {
@@ -2257,6 +2608,45 @@
             "uri",
             "url"
         ]
+    },
+    {
+        "name": "html2text/html2text",
+        "version": "4.0.1",
+        "version_normalized": "4.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mtibben/html2text.git",
+            "reference": "f55104b7c9f99b0937f0e20fe051b19f9c0ecad1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mtibben/html2text/zipball/f55104b7c9f99b0937f0e20fe051b19f9c0ecad1",
+            "reference": "f55104b7c9f99b0937f0e20fe051b19f9c0ecad1",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance",
+            "symfony/polyfill-mbstring": "If you can't install ext-mbstring"
+        },
+        "time": "2016-03-16T23:24:34+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Html2Text\\": [
+                    "src/",
+                    "test/"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv2"
+        ],
+        "description": "Converts HTML to formatted plain text"
     },
     {
         "name": "masterminds/html5",
@@ -2787,6 +3177,59 @@
         "description": "A polyfill for getallheaders."
     },
     {
+        "name": "sendgrid/smtpapi",
+        "version": "0.6.1",
+        "version_normalized": "0.6.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sendgrid/smtpapi-php.git",
+            "reference": "1c835388c11dc5e792260ae3e9662d6a661ace30"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sendgrid/smtpapi-php/zipball/1c835388c11dc5e792260ae3e9662d6a661ace30",
+            "reference": "1c835388c11dc5e792260ae3e9662d6a661ace30",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "replace": {
+            "sendgrid/smtpapi-php": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "suggest": {
+            "swiftmailer/swiftmailer": "^5.4 - Needed to run the example scripts"
+        },
+        "time": "2017-07-06T22:11:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Smtpapi": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Build SendGrid X-SMTPAPI headers in PHP.",
+        "homepage": "http://github.com/sendgrid/smtpapi-php",
+        "keywords": [
+            "X-SMTP",
+            "api",
+            "email",
+            "grid",
+            "send",
+            "sendgrid",
+            "smtp",
+            "smtpapi",
+            "xsmtp"
+        ]
+    },
+    {
         "name": "stack/builder",
         "version": "v1.0.5",
         "version_normalized": "1.0.5.0",
@@ -2835,6 +3278,62 @@
         "description": "Builder for stack middlewares based on HttpKernelInterface.",
         "keywords": [
             "stack"
+        ]
+    },
+    {
+        "name": "swiftmailer/swiftmailer",
+        "version": "v5.4.12",
+        "version_normalized": "5.4.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/swiftmailer/swiftmailer.git",
+            "reference": "181b89f18a90f8925ef805f950d47a7190e9b950"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/181b89f18a90f8925ef805f950d47a7190e9b950",
+            "reference": "181b89f18a90f8925ef805f950d47a7190e9b950",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9.1",
+            "symfony/phpunit-bridge": "~3.2"
+        },
+        "time": "2018-07-31T09:26:32+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "lib/swift_required.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Corbyn"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "Swiftmailer, free feature-rich PHP mailer",
+        "homepage": "https://swiftmailer.symfony.com",
+        "keywords": [
+            "email",
+            "mail",
+            "mailer"
         ]
     },
     {

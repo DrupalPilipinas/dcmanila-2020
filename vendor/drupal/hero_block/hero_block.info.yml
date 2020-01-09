@@ -1,0 +1,13 @@
+name: Hero Block
+description: A simple module to create Hero Image block.
+core: 8.x
+package: Content
+dependencies:
+- node
+- block
+type: module
+
+# Information added by Drupal.org packaging script on 2019-09-02
+version: '8.x-1.3'
+project: 'hero_block'
+datestamp: 1567418287
