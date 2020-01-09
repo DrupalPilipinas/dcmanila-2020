@@ -84,14 +84,25 @@ html, body {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: #0a547b;
 }
+
+
 .navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+    border-color: #d92a5a;
+    background: #d92a5a;
+    margin: 26px;
+}
+
+/*.navbar-default .navbar-toggle .icon-bar {
     background-color: #0a547b;
     font-size: 1em;
 }
 .navbar-default .navbar-toggle {
 	border-color: #0a547b;
 	margin: 26px;
-}
+}*/
 
 .camp-dates {
     margin-top: 10px;
