@@ -21,8 +21,9 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   font-weight: 400;
 }
 
-div.layout {
+.layout__region {
   margin-top: 1em;
+  margin-bottom: 3em;
   padding: 5px;
 }
 
@@ -89,6 +90,29 @@ section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp
   text-align: center;
   margin: auto;
   padding: 0 1em;
+}
+
+
+/* Call To Action */
+
+.call-to-action .col-sm-4 {
+  background-color: white;
+  margin: 5px auto;
+}
+
+.call-to-action h3 {
+  top: -10px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #D92B5A;
+  background-color: white;
+}
+
+.call-to-action img {
+  width: 100%;
+  border: 5px dashed #0a547b;
+  border-radius: 5px;
+  border-bottom: url(../images/pattern-1.png)
 }
 
 /*
