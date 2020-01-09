@@ -35,6 +35,17 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   color: #0a547b
 }
 
+.content h2,
+.content h1 {
+    color: #E12B4A;
+    text-transform: uppercase;
+    text-shadow: 2px 1px #0D9FD9;
+}
+
+.content h2 {
+  font-size: 3em;
+}
+
 /*
  * #navbar
  */
@@ -119,6 +130,12 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   border-radius: 2em;
   min-width: 420px;
   min-height: fit-content;
+  color: white;
+}
+
+#main-content .schedule h3 {
+  color: #E12B4A;
+  text-shadow: 2px 1px #0a547b;
 }
 
 /*
