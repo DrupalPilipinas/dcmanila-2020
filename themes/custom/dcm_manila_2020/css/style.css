@@ -20,16 +20,17 @@ html, body {
 
 /* Navigation Top - Site Branding */
 
-#block-campdates {
-  float: right;
-}
-
 .baloo-red {
   color: #D92B5A
 }
 
 .baloo-blue {
   color: #0a547b
+}
+
+.logo img {
+	max-height: 72px;
+	margin: 2px;
 }
 
 
@@ -44,6 +45,8 @@ html, body {
 }
 #navbar.navbar-default .navbar-header .logo {
   margin: 0;
+  padding: 0;
+  margin-top: 5px;
 }
 #navbar.navbar-default {
   background: none;
@@ -55,6 +58,13 @@ html, body {
     float: none;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar-default .container {
+	display: inline-block;
+  }
+}
+
 #navbar.navbar-default .navbar-collapse {
   background: #0a547b;
 }
@@ -71,6 +81,21 @@ html, body {
   border: none;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #0a547b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0a547b;
+    font-size: 1em;
+}
+.navbar-default .navbar-toggle {
+	border-color: #0a547b;
+	margin: 26px;
+}
+
+.camp-dates {
+    margin-top: 10px;
+}
 
 /*
  * banner
@@ -309,7 +334,7 @@ section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp
 
 .hero-block  {
 	color: #353a44;
-	background: rgba(255,255,255, 0.0) url("/themes/custom/dcm_manila_2020/images/drupalcamp-manila-2020-hero-img-left.jpg") center top no-repeat;
+	background: rgba(255,255,255, 0.0) url("/themes/custom/dcm_manila_2020/images/drupalcamp-manila-2020-hero-img-left-new.jpg") center top no-repeat;
 	background-size: 1170px;
 	height: 720px;
 	overflow: hidden;
@@ -385,10 +410,13 @@ h4.hero.venue {
 .hero-block .hero .col-2 {
 	overflow: hidden;
 }
+
 .hero-block .hero .col-2 img {
-	margin: 0 auto;
+    margin: 0 auto;
+    position: relative;
     height: auto;
     margin-top: 1em;
+    left: 37px;
 }
 
 /* Font */
