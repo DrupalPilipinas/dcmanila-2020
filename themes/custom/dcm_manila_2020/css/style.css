@@ -172,6 +172,11 @@ html, body {
   z-index: 10;
 }
 
+.region.region-content {
+   background: rgba(255,255,255, 0.75);
+}
+
+
 /*
  * #footer-main
  */
