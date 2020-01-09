@@ -21,12 +21,6 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   font-weight: 400;
 }
 
-.layout__region {
-  margin-top: 1em;
-  margin-bottom: 3em;
-  padding: 5px;
-}
-
 /* Navigation Top - Site Branding */
 
 #block-campdates {
@@ -41,79 +35,6 @@ div, h1, h2, h3, h4, h5, h6, span, a, p {
   color: #0a547b
 }
 
-
-/* Homepage Specific */
-
-.content h2,
-.content h1 {
-    color: #E12B4A;
-    text-transform: uppercase;
-    text-shadow: 2px 1px #0D9FD9;
-}
-
-.content h2 {
-  font-size: 3em;
-}
-
-
-/* Why Drupal Camp Is For You */
-.field--item:nth-of-type(odd) .layout--twocol-section {
-  flex-direction: row-reverse;
-}
-
-.layout__region.layout__region--second {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 4em;
-}
-
-.block-field-blocknodepagefield-why-drupalcamp .layout__region--second {
-  background: url(../images/background_grey.png) center center;
-  background-repeat: repeat-x;
-  background-size: cover;
-  vertical-align: middle;
-}
-
-section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp-is-for-youfield-title {
-  color: #0a547b;
-  font-size: 2em;
-  text-align: center;
-  margin: auto;
-  padding: 0 1em;
-}
-
-section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp-is-for-youfield-body {
-  color: #0d9fd9;
-  font-size: 1.5em;
-  text-align: center;
-  margin: auto;
-  padding: 0 1em;
-}
-
-
-/* Call To Action */
-
-.call-to-action .col-sm-4 {
-  background-color: white;
-  margin: 5px auto;
-}
-
-.call-to-action h3 {
-  top: -10px;
-  text-transform: capitalize;
-  text-align: center;
-  color: #D92B5A;
-  background-color: white;
-}
-
-.call-to-action img {
-  width: 100%;
-  border: 5px dashed #0a547b;
-  border-radius: 5px;
-  border-bottom: url(../images/pattern-1.png)
-}
 
 /*
  * #navbar
@@ -191,20 +112,8 @@ section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp
   padding: 30px 0;
 }
 
-#main-content .schedule {
-  background: #0D9FD9;
-  padding: 1em;
-  margin: 1em;
-  border: 5px dashed #0a547b;
-  border-radius: 2em;
-  min-width: 420px;
-  min-height: fit-content;
-  color: white;
-}
-
-#main-content .schedule h3 {
-  color: #E12B4A;
-  text-shadow: 2px 1px #0a547b;
+#main-content {
+  background-color: rgba(255,255,255 0.5);
 }
 
 /*
@@ -280,3 +189,108 @@ section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp
   width:100%;
   position:absolute;
 }
+
+
+
+
+
+/* Homepage Specific */
+
+.content h2,
+.content h1 {
+    color: #E12B4A;
+    text-transform: uppercase;
+    text-shadow: 2px 1px #0D9FD9;
+}
+
+.content h2 {
+  font-size: 3em;
+}
+
+/* Schedule Section */ 
+#main-content .schedule {
+  background: #0D9FD9;
+  padding: 1em;
+  margin: 1em;
+  border: 5px dashed #0a547b;
+  border-radius: 2em;
+  min-width: 420px;
+  min-height: fit-content;
+  color: white;
+}
+
+#main-content .schedule h3 {
+  color: #E12B4A;
+  text-shadow: 2px 1px #0a547b;
+}
+
+/* Why Drupal Camp Is For You */
+.field--item:nth-of-type(odd) .layout--twocol-section {
+  flex-direction: row-reverse;
+}
+
+.layout__region.layout__region--second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4em;
+}
+
+.block-field-blocknodepagefield-why-drupalcamp .layout__region--second {
+  background: url(../images/background_grey.png) center center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp-is-for-youfield-title {
+  color: #0a547b;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  padding: 0 1em;
+}
+
+section.block.block-layout-builder.block-field-blockparagraphhome-why-drupalcamp-is-for-youfield-body {
+  color: #0d9fd9;
+  font-size: 1.5em;
+  text-align: center;
+  margin: auto;
+  padding: 0 1em;
+}
+
+
+/* Call To Action */
+.call-to-action .col-sm-4 {
+  background-color: white;
+  margin: 5px auto;
+}
+
+.call-to-action h3 {
+  position: relative;
+  top: 1.2em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #D92B5A;
+}
+
+.call-to-action img {
+  width: 100%;
+  border: 5px dashed #0a547b;
+  border-radius: 5px;
+  border-bottom: url(../images/pattern-1.png)
+}
+
+.call-to-action h4 {
+  text-align: center;
+}
+
+.call-to-action .btn {
+  background: #D92B5A;
+  font-size: 1.2em;
+  color: white;
+  bottom: 4em;
+  max-width: 70%;
+}
+
