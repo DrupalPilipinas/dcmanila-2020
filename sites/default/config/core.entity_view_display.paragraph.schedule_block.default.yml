@@ -1,0 +1,81 @@
+uuid: 395c4217-022b-43cd-83b5-80b29fe3b98e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.schedule_block.field_body
+    - field.field.paragraph.schedule_block.field_schedule_title
+    - paragraphs.paragraphs_type.schedule_block
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          174d0a0d-7efc-4d48-8587-0f137136b687:
+            uuid: 174d0a0d-7efc-4d48-8587-0f137136b687
+            region: content
+            configuration:
+              id: 'field_block:paragraph:schedule_block:field_schedule_title'
+              label: 'Schedule Title'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: visually_hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          dd38814f-716a-495a-8fe9-85bef978d6e3:
+            uuid: dd38814f-716a-495a-8fe9-85bef978d6e3
+            region: content
+            configuration:
+              id: 'field_block:paragraph:schedule_block:field_body'
+              label: Body
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: visually_hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
+id: paragraph.schedule_block.default
+targetEntityType: paragraph
+bundle: schedule_block
+mode: default
+content:
+  field_body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_schedule_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

@@ -1,0 +1,38 @@
+uuid: 03e93232-2b37-4d63-a819-26d88edd1875
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_background
+    - paragraphs.paragraphs_type.home_why_drupalcamp_is_for_you
+  module:
+    - image
+id: paragraph.home_why_drupalcamp_is_for_you.field_background
+field_name: field_background
+entity_type: paragraph
+bundle: home_why_drupalcamp_is_for_you
+label: Background
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: c038698f-bd8f-4032-a3aa-2409291b6ade
+    alt: ''
+    title: ''
+    width: 180
+    height: 180
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

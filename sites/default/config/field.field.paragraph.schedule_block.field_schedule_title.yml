@@ -1,0 +1,19 @@
+uuid: 2f3d9274-f786-4e07-8fff-bfd2165ee05a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_schedule_title
+    - paragraphs.paragraphs_type.schedule_block
+id: paragraph.schedule_block.field_schedule_title
+field_name: field_schedule_title
+entity_type: paragraph
+bundle: schedule_block
+label: 'Schedule Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

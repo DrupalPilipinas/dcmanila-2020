@@ -1,0 +1,9 @@
+uuid: a9347eec-42be-4e0b-9375-b567768d575f
+langcode: en
+status: true
+dependencies: {  }
+id: schedule_block
+label: 'Schedule Block'
+icon_uuid: null
+description: 'Schedule Block'
+behavior_plugins: {  }

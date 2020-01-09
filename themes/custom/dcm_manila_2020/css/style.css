@@ -89,10 +89,17 @@ html, body {
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #ffffff;
 }
+
 .navbar-default .navbar-toggle {
     border-color: #d92a5a;
     background: #d92a5a;
     margin: 26px;
+}
+
+#navbar.navbar-default .navbar-collapse {
+    background: #0a547b url("/themes/custom/dcm_manila_2020/images/pattern-1.png") center bottom repeat-x;
+    background-size: 1110px;
+    padding-bottom: 5px;
 }
 
 /*.navbar-default .navbar-toggle .icon-bar {

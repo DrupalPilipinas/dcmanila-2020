@@ -12,15 +12,15 @@ dependencies:
     - dcm_manila_2020
 id: dcm_manila_2020_webform
 theme: dcm_manila_2020
-region: header
-weight: -9
+region: content
+weight: 3
 provider: null
 plugin: webform_block
 settings:
   id: webform_block
-  label: 'Be A Sponsor Form'
+  label: 'Sponsorship Form'
   provider: webform
-  label_display: '0'
+  label_display: visible
   webform_id: be_a_sponsor
   default_data: ''
   redirect: false

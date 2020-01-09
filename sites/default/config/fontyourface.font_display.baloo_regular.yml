@@ -1,0 +1,10 @@
+uuid: fd0e679a-f442-4d39-8438-190cc9031cae
+langcode: en
+status: true
+dependencies: {  }
+id: baloo_regular
+label: 'Baloo Regular'
+font_url: 'local_fonts://baloo_regular'
+fallback: Ubuntu
+selectors: .fontyourface
+theme: dcm_manila_2020

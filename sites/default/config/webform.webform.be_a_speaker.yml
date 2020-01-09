@@ -12,17 +12,17 @@ id: be_a_speaker
 title: 'Be A Speaker'
 description: ''
 category: ''
-elements: "name:\n  '#type': textfield\n  '#title': Name\n  '#required': true\n  '#required_error': 'Name is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\nprofile_image:\n  '#type': webform_image_file\n  '#title': 'Profile Image'\n  '#required': true\n  '#required_error': 'Profile Image is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\n  '#max_filesize': '10'\nemail_address:\n  '#type': email\n  '#title': 'Email Address'\n  '#required': true\n  '#required_error': 'Email Address is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\ncontact_numer:\n  '#type': textfield\n  '#title': 'Contact Numer'\n  '#required': true\n  '#required_error': 'Contact Number is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\ntopic_title:\n  '#type': textfield\n  '#title': 'Topic Title'\n  '#required': true\n  '#required_error': 'Topic Title is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\ncategory:\n  '#type': select\n  '#title': Category\n  '#options':\n    beginner: beginner\n    intermediate: intermediate\n    advanced: advanced\n  '#required': true\n  '#required_error': 'Category is required'\n  '#default_value': beginner\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\n  '#attributes':\n    class:\n      - form-control\nsummary:\n  '#type': textarea\n  '#title': summary\n  '#rows': '4'\n  '#required': true\n  '#required_error': 'Topic summary is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'"
+elements: "category:\n  '#type': select\n  '#title': Track\n  '#options':\n    Contributions: Contributions\n    'Module Development': 'Module Development'\n    'Frontend Development': 'Frontend Development'\n    'Content and Marketing': 'Content and Marketing'\n    'Birds of Feather (BOFs)': 'Birds of Feather (BOFs)'\n    Others: Others\n  '#required': true\n  '#required_error': 'Category is required'\n  '#default_value': beginner\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\n  '#attributes':\n    class:\n      - form-control\ntopic_title:\n  '#type': textfield\n  '#title': 'Topic Title'\n  '#required': true\n  '#required_error': 'Topic Title is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\nsummary:\n  '#type': textarea\n  '#title': 'Topic Summary'\n  '#rows': '4'\n  '#required': true\n  '#required_error': 'Topic summary is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\nname:\n  '#type': textfield\n  '#title': Name\n  '#required': true\n  '#required_error': 'Name is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\nprofile_image:\n  '#type': webform_image_file\n  '#title': 'Profile Image'\n  '#required': true\n  '#required_error': 'Profile Image is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\n  '#max_filesize': '10'\nemail_address:\n  '#type': email\n  '#title': 'Email Address'\n  '#required': true\n  '#required_error': 'Email Address is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\ncontact_numer:\n  '#type': textfield\n  '#title': 'Contact Number'\n  '#required': true\n  '#required_error': 'Contact Number is required'\n  '#wrapper_attributes':\n    class:\n      - 'form-group '\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'"
 css: ''
 javascript: ''
 settings:
   ajax: false
-  ajax_scroll_top: form
+  ajax_scroll_top: ''
   ajax_progress_type: ''
   ajax_effect: ''
   ajax_speed: null
   page: true
-  page_submit_path: ''
+  page_submit_path: /be-a-speaker/submit
   page_confirm_path: ''
   page_admin_theme: false
   form_title: both
@@ -98,9 +98,9 @@ settings:
   draft_loaded_message: ''
   draft_pending_single_message: ''
   draft_pending_multiple_message: ''
-  confirmation_type: page
-  confirmation_title: ''
-  confirmation_message: ''
+  confirmation_type: modal
+  confirmation_title: 'Thank you for your submission!'
+  confirmation_message: 'We will inform you once your submission has been accepted. Thanks!'
   confirmation_url: ''
   confirmation_attributes: {  }
   confirmation_back: true
@@ -173,4 +173,38 @@ access:
     roles: {  }
     users: {  }
     permissions: {  }
-handlers: {  }
+handlers:
+  email:
+    id: email
+    label: Email
+    handler_id: email
+    status: true
+    conditions: {  }
+    weight: 0
+    settings:
+      states:
+        - completed
+      to_mail: _default
+      to_options: {  }
+      cc_mail: '[webform_submission:values:email_address:raw]'
+      cc_options: {  }
+      bcc_mail: ask@techops.ph
+      bcc_options: {  }
+      from_mail: _default
+      from_options: {  }
+      from_name: _default
+      subject: _default
+      body: _default
+      excluded_elements: {  }
+      ignore_access: false
+      exclude_empty: true
+      exclude_empty_checkbox: false
+      html: true
+      attachments: false
+      twig: false
+      debug: false
+      reply_to: ''
+      return_path: ''
+      sender_mail: ''
+      sender_name: ''
+      theme_name: ''

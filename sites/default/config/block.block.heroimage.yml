@@ -1,0 +1,31 @@
+uuid: da18bd78-9217-41af-ad45-abf770f099e9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:753686c1-5620-48e9-a4da-42b888a131c0'
+  module:
+    - block_content
+    - system
+  theme:
+    - dcm_manila_2020
+id: heroimage
+theme: dcm_manila_2020
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:753686c1-5620-48e9-a4da-42b888a131c0'
+settings:
+  id: 'block_content:753686c1-5620-48e9-a4da-42b888a131c0'
+  label: 'Hero Image'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

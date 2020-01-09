@@ -1,0 +1,121 @@
+uuid: f3567843-ba6a-4cb4-94e3-1ad32a8067a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_why_drupalcamp_is_for_you.field_background
+    - field.field.paragraph.home_why_drupalcamp_is_for_you.field_body
+    - field.field.paragraph.home_why_drupalcamp_is_for_you.field_orientation
+    - field.field.paragraph.home_why_drupalcamp_is_for_you.field_title
+    - paragraphs.paragraphs_type.home_why_drupalcamp_is_for_you
+    - responsive_image.styles.wide
+  module:
+    - layout_builder
+    - responsive_image
+    - text
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: '2 Columns'
+          column_widths: 50-50
+        components:
+          1a9e56d5-4adf-4196-b2bb-1d79f24721e1:
+            uuid: 1a9e56d5-4adf-4196-b2bb-1d79f24721e1
+            region: first
+            configuration:
+              id: 'field_block:paragraph:home_why_drupalcamp_is_for_you:field_background'
+              label: Background
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: visually_hidden
+                type: image
+                settings:
+                  image_style: max_1300x1300
+                  image_link: ''
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          fa614b65-9c54-4a7e-86ae-821e0fcf3ab8:
+            uuid: fa614b65-9c54-4a7e-86ae-821e0fcf3ab8
+            region: second
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:paragraph:home_why_drupalcamp_is_for_you:field_body'
+              formatter:
+                label: visually_hidden
+                settings: {  }
+                third_party_settings: {  }
+                type: text_default
+            additional: {  }
+            weight: 1
+          3c6571fa-87fb-4ac6-a858-63662e02bab8:
+            uuid: 3c6571fa-87fb-4ac6-a858-63662e02bab8
+            region: second
+            configuration:
+              id: 'field_block:paragraph:home_why_drupalcamp_is_for_you:field_title'
+              label: Title
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: visually_hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+id: paragraph.home_why_drupalcamp_is_for_you.default
+targetEntityType: paragraph
+bundle: home_why_drupalcamp_is_for_you
+mode: default
+content:
+  field_background:
+    weight: 1
+    label: visually_hidden
+    settings:
+      responsive_image_style: wide
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+    region: content
+  field_body:
+    weight: 2
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_orientation:
+    type: boolean
+    weight: 3
+    region: content
+    label: visually_hidden
+    settings:
+      format: default
+      format_custom_true: ''
+      format_custom_false: ''
+    third_party_settings: {  }
+  field_title:
+    weight: 0
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

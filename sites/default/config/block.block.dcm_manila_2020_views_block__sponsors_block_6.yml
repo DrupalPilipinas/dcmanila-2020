@@ -12,7 +12,7 @@ dependencies:
 id: dcm_manila_2020_views_block__sponsors_block_6
 theme: dcm_manila_2020
 region: content
-weight: 0
+weight: 2
 provider: null
 plugin: 'views_block:sponsors-block_6'
 settings:

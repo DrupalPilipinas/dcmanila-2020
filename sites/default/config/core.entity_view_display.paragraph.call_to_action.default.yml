@@ -1,0 +1,113 @@
+uuid: c48cdc7f-7f24-45ef-9729-5f85ef45e4cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.call_to_action.field_background
+    - field.field.paragraph.call_to_action.field_button_link
+    - field.field.paragraph.call_to_action.field_title
+    - paragraphs.paragraphs_type.call_to_action
+  module:
+    - layout_builder
+    - layout_discovery
+    - link
+    - responsive_image
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          14eaaca4-61e3-47c5-bfba-fe14718c52e5:
+            uuid: 14eaaca4-61e3-47c5-bfba-fe14718c52e5
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:paragraph:call_to_action:field_title'
+              formatter:
+                label: visually_hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+                type: string
+            additional: {  }
+            weight: 0
+          d18c93d6-871c-4351-b511-6aca7b1cd5e0:
+            uuid: d18c93d6-871c-4351-b511-6aca7b1cd5e0
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:paragraph:call_to_action:field_background'
+              formatter:
+                label: visually_hidden
+                settings:
+                  image_link: ''
+                  responsive_image_style: ''
+                third_party_settings: {  }
+                type: responsive_image
+            additional: {  }
+            weight: 1
+          a1f1f8fe-fbb3-44b6-b5c2-feea39c6d91b:
+            uuid: a1f1f8fe-fbb3-44b6-b5c2-feea39c6d91b
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:paragraph:call_to_action:field_button_link'
+              formatter:
+                label: visually_hidden
+                settings:
+                  trim_length: 80
+                  rel: nofollow
+                  url_only: false
+                  url_plain: false
+                  target: '0'
+                third_party_settings: {  }
+                type: link
+            additional: {  }
+            weight: 2
+        third_party_settings: {  }
+id: paragraph.call_to_action.default
+targetEntityType: paragraph
+bundle: call_to_action
+mode: default
+content:
+  field_background:
+    weight: 1
+    label: visually_hidden
+    settings:
+      image_link: ''
+      responsive_image_style: ''
+    third_party_settings: {  }
+    type: responsive_image
+    region: content
+  field_button_link:
+    weight: 2
+    label: visually_hidden
+    settings:
+      trim_length: 80
+      rel: nofollow
+      url_only: false
+      url_plain: false
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_title:
+    weight: 0
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

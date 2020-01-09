@@ -2,12 +2,14 @@ uuid: 56cf4bd0-fd6e-4207-9252-52a78dc9d793
 langcode: en
 status: true
 dependencies:
+  module:
+    - system
   theme:
     - dcm_manila_2020
 id: dcm_manila_2020_pagetitle
 theme: dcm_manila_2020
 region: content
-weight: -9
+weight: -7
 provider: null
 plugin: page_title_block
 settings:
@@ -15,4 +17,9 @@ settings:
   label: 'Page title'
   provider: core
   label_display: '0'
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

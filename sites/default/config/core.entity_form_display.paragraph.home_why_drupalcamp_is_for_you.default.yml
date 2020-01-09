@@ -1,0 +1,68 @@
+uuid: b71f68a6-2345-4c7f-8cb7-93def626c4aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.home_why_drupalcamp_is_for_you.field_background
+    - field.field.paragraph.home_why_drupalcamp_is_for_you.field_body
+    - field.field.paragraph.home_why_drupalcamp_is_for_you.field_orientation
+    - field.field.paragraph.home_why_drupalcamp_is_for_you.field_title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.home_why_drupalcamp_is_for_you
+  module:
+    - field_layout
+    - image
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.home_why_drupalcamp_is_for_you.default
+targetEntityType: paragraph
+bundle: home_why_drupalcamp_is_for_you
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_background:
+    weight: -9
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_body:
+    weight: -7
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_orientation:
+    weight: -6
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_title:
+    weight: -8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,49 @@
+uuid: 736a3d11-3fa4-4525-9447-98775aa457da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.schedule_block.field_body
+    - field.field.paragraph.schedule_block.field_schedule_title
+    - paragraphs.paragraphs_type.schedule_block
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: paragraph.schedule_block.default
+targetEntityType: paragraph
+bundle: schedule_block
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_body:
+    weight: -8
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_schedule_title:
+    weight: -9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

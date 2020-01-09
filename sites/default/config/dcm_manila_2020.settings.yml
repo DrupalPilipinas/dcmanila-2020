@@ -4,7 +4,7 @@ schemas:
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
-  url: 'https://voj-bs-dcmanila-2020.pantheonsite.io/themes/custom/dcm_manila_2020/favicon.ico'
+  url: 'https://dev-dcmanila-2020.pantheonsite.io/themes/custom/dcm_manila_2020/favicon.ico'
   use_default: 1
 features:
   comment_user_picture: 1
@@ -12,7 +12,7 @@ features:
   favicon: 1
   node_user_picture: 1
 logo:
-  path: 'public://header-logo.png'
+  path: 'public://drupalcamp-manila-2020-new-logo-01072020-lq.png'
   url: ''
   use_default: 0
 table_responsive: '-1'
@@ -35,3 +35,4 @@ cdn_cache_ttl_library: '0'
 reset_http_request_cache: ''
 table: ''
 navbar_position: static-top
+modal_enabled: 0

@@ -1,25 +1,31 @@
 uuid: 77f90fc9-4640-4a32-b4ea-10b3ef95b8d0
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:389b28c0-584f-4c52-a7c3-9a0fe2ac66e4'
   module:
     - block_content
+    - system
   theme:
     - dcm_manila_2020
 id: sponsors
 theme: dcm_manila_2020
 region: header
-weight: 0
+weight: -9
 provider: null
 plugin: 'block_content:389b28c0-584f-4c52-a7c3-9a0fe2ac66e4'
 settings:
   id: 'block_content:389b28c0-584f-4c52-a7c3-9a0fe2ac66e4'
-  label: 'Join Now'
+  label: 'Sponsors - Cover'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

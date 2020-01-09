@@ -1,0 +1,12 @@
+apikey: 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
+test_defaults:
+  to: hello@drupal.org.ph
+  subject: 'Test Email from SendGrid Module'
+  body:
+    value: "<p>Test Message for SendGrid.</p>\r\n"
+    format: full_html
+  from_name: 'EL Abquina'
+  to_name: eabquina@gmail.com
+  reply_to: hello@drupal.org.ph
+_core:
+  default_config_hash: g4qz7cPnloXFwtnLYfIKI2VS0gf_UFOz_I2uQiiulC8

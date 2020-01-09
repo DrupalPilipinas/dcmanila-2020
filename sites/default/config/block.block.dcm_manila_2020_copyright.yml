@@ -11,7 +11,7 @@ dependencies:
 id: dcm_manila_2020_copyright
 theme: dcm_manila_2020
 region: footer
-weight: 0
+weight: -8
 provider: null
 plugin: 'block_content:27588193-4666-45c4-aede-093b1af9cea5'
 settings:

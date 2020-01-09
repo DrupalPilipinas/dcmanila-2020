@@ -1,0 +1,23 @@
+uuid: ecf5f43e-0285-402d-9fd9-91f40015f4e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_orientation
+    - paragraphs.paragraphs_type.home_why_drupalcamp_is_for_you
+id: paragraph.home_why_drupalcamp_is_for_you.field_orientation
+field_name: field_orientation
+entity_type: paragraph
+bundle: home_why_drupalcamp_is_for_you
+label: Orientation
+description: 'Toggle if Left to Right or Right to Left'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Image Right'
+  off_label: 'Image Left'
+field_type: boolean

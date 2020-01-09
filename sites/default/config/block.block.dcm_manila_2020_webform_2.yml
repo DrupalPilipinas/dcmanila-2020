@@ -12,15 +12,15 @@ dependencies:
     - dcm_manila_2020
 id: dcm_manila_2020_webform_2
 theme: dcm_manila_2020
-region: header
-weight: -7
+region: content
+weight: 4
 provider: null
 plugin: webform_block
 settings:
   id: webform_block
-  label: 'Be A Speaker Form'
+  label: 'Session Submission Form'
   provider: webform
-  label_display: '0'
+  label_display: visible
   webform_id: be_a_speaker
   default_data: ''
   redirect: false

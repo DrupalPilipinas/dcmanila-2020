@@ -1,0 +1,25 @@
+uuid: 647907d6-9875-47c0-98da-17d13a370f79
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ced798f2-31a6-4a42-a10e-38cbdbda03eb'
+  module:
+    - block_content
+  theme:
+    - dcm_manila_2020
+id: venuemap
+theme: dcm_manila_2020
+region: footer2
+weight: 0
+provider: null
+plugin: 'block_content:ced798f2-31a6-4a42-a10e-38cbdbda03eb'
+settings:
+  id: 'block_content:ced798f2-31a6-4a42-a10e-38cbdbda03eb'
+  label: 'Venue Map'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
