@@ -88,6 +88,16 @@ fff - white color on blue bg
   padding: 30px 0;
 }
 
+#main-content .schedule {
+  background: #0D9FD9;
+  padding: 1em;
+  margin: 1em;
+  border: 5px dashed #0a547b;
+  border-radius: 2em;
+  min-width: 420px;
+  min-height: fit-content;
+}
+
 /*
  * #footer-secondary
  */
