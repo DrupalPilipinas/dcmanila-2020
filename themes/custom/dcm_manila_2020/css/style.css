@@ -459,6 +459,7 @@ span.share_text {
     font-size: 1em !important;
     font-family: 'Baloo-Regular' !important;
     text-align: center;
+    display: none;
 }
 
 .shariff .orientation-horizontal li {
@@ -466,8 +467,9 @@ span.share_text {
 	text-align: center;
 	margin: 5px 0;
 	min-height: 64px;
+	text-transform: capitalize;
 }
 
-.shariff .orientation-horizontal a {
-
+.shariff .orientation-horizontal li .share_text {
+	display: none;
 }
