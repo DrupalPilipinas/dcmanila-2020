@@ -1,9 +1,0 @@
-form_ids: 'user_pass,user_register_form, webform_submission_be_a_speaker_node_7_add_form, webform-submission-be-a-speaker-node-7-add-form, webform-submission-be-a-sponsor-node-6-add-form, webform_submission_be_a_sponsor_node_6_add_form, contact-message-feedback-form, contact_message_feedback_form'
-site_key: 6LffCjIUAAAAAGwAQUiKYJ-h01PBMgP6SDtDD2A8
-secret_key: 6LffCjIUAAAAAAFC5mWsizz0SpCDlxVIPFh5vy4j
-site_key_v3: 6LdI9M0UAAAAAO6aBESMdq-LTnhbbRSR9g8eb__4
-secret_key_v3: 6LdI9M0UAAAAAAzG4uac0MeVLhfYIQ3NRxJ3kPAP
-recaptcha_type: v3
-v3_score: '80'
-_core:
-  default_config_hash: '-sSRM-dyMqtGza-vmSkK4aU7vdYzqMFFokm26l4uW3M'

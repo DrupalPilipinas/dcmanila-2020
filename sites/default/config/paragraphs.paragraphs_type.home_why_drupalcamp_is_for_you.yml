@@ -1,9 +1,0 @@
-uuid: 3d7424cc-984c-4dba-9df1-431d9e95845c
-langcode: en
-status: true
-dependencies: {  }
-id: home_why_drupalcamp_is_for_you
-label: 'Home - Why DrupalCamp Is For You'
-icon_uuid: null
-description: ''
-behavior_plugins: {  }
