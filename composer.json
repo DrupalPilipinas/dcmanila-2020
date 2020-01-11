@@ -20,6 +20,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/d8w3css": "^1.15",
+        "drupal/extlink": "^1.1",
         "drupal/fontawesome": "^2.14",
         "drupal/fontyourface": "^3.2",
         "drupal/hero_block": "^1.3",

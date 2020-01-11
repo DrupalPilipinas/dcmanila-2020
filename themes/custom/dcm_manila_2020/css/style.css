@@ -14,7 +14,7 @@ fff - white color on blue bg
 */
 
 /* Basics */
-html, body {
+html, body, div, p {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif;
 }
 
@@ -70,7 +70,7 @@ html, body {
 }
 #navbar.navbar-default .navbar-nav>li>a {
   color: #fff;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 17px;
 }
 #navbar.navbar-default .navbar-nav>li>a:hover {
@@ -82,7 +82,7 @@ html, body {
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	background-color: #0a547b;
+	background-color: #126b9a;
 }
 
 
@@ -209,8 +209,13 @@ html, body {
   z-index: 10;
   color: #fff;
 }
+
 #footer-main .container .inner a {
   color: #fff;
+}
+
+#footer-main .container .inner a:hover {
+  background-color: #126b9a;
 }
 
 
@@ -444,7 +449,7 @@ h4.hero.venue {
 
 /* Font */
 
-div, h1, h2, h3, h4, h5, h6, span, a, p {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Baloo-Regular';
   font-style: normal;
   font-weight: 400;
